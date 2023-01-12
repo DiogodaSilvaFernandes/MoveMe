@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace MoveMe
 {
@@ -21,7 +22,7 @@ namespace MoveMe
 
         public string LookLandscap() 
         {
-            throw new NotImplementedException();
+            return "Je profite du paysage";
         }
     }
 }
