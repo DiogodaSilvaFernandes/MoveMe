@@ -35,7 +35,7 @@ namespace MoveMe
 
         public void StopEngine()
         {
-            throw new NotImplementedException();
+            _engineState = false;
         }
 
         public class VehicleException : Exception { }
